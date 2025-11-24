@@ -34,6 +34,22 @@ body {
   height: 35px;
 }
 
+.user-text {
+  display: flex;
+  flex-direction: column; 
+  line-height: 1.2;
+}
+
+.user-text .title {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.user-text .subtitle {
+  font-size: 14px;  
+  color: #000000;       
+}
+
 .post-img img {
   width: 100%;
   display: block;
@@ -61,3 +77,10 @@ body {
   font-size: 15px;
   line-height: 1.4;
 }
+.user-info {
+  display: flex;
+  align-items: center; /* ícono alineado con bloque de texto */
+  gap: 10px;
+}
+
+
