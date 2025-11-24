@@ -79,7 +79,7 @@ body {
 }
 .user-info {
   display: flex;
-  align-items: center; /* ícono alineado con bloque de texto */
+  align-items: center; 
   gap: 10px;
 }
 
